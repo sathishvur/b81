@@ -1,0 +1,31 @@
+to create name and email
+=======================
+get config --global user.name "sathish"
+git config --global user.email "anjsathish@gmail.com"
+
+to list
+--------
+git config --list
+
+to remove the name and email ID
+-----------------------------------------
+git config --global --unset user.name "sathish"
+git config --global --unset user.email "anjsathish@gmail.com"
+
+GIT have 3 phases
+
+--->>GIT --> Central repository
+                 1--> workspace - (create data in local machine like.... new file/create file/modify file it will modify in workspace)
+                 2--> staging or Index area - (full details about the files, who created, when tit was created, what is the purpose of the file....etc)
+                 3-->local repository - (any file in local repository and need to update in central (GIT HUB) repository)
+			(if we need to update the file in central repository(git hub - we need to updload from the local repository.
+without local repository we can move the file to central repository)
+
+
+workspace -to - staging/index
+
+
+
+staging -to- central repository
+
+
